@@ -1,4 +1,4 @@
-# 🛡️ EnvKoruma Plugin
+# 🛡️ EnvanterKoruma Plugin
 
 Minecraft oyuncularının yanlışlıkla item atmasını önleyen basit ama etkili bir koruma eklentisi.
 
@@ -13,13 +13,13 @@ Minecraft oyuncularının yanlışlıkla item atmasını önleyen basit ama etki
 
 ## 🧱 Desteklenen Sunucu Forkları
 
-| Sunucu Türü  | Destek |
-|--------------|--------|
-| Paper        | ✅     |
-| Purpur       | ✅     |
-| Folia        | ✅     |
-| Spigot       | ✅     |
-
+| Sunucu Türü  | Destek         |
+|--------------|----------------|
+| Paper        | ✅             |
+| Purpur       | ✅             |
+| Folia        | ✅             |
+| Spigot       | ✅             |
+| ⚠️ Bukkit    | Kısmi destek   |
 
 ## 🔧 Kurulum
 
