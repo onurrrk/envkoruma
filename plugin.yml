@@ -1,0 +1,18 @@
+name: EnvKoruma
+version: 1.0
+main: me.envkoruma.EnvKoruma
+api-version: 1.13
+author: onurr_k
+folia-supported: true
+commands:
+  envkoruma:
+    description: Envanter koruma aç/kapat
+    permission: envkoruma.kullan
+  envadmin:
+    description: Yapılandırmayı yeniden yükle
+    permission: envkoruma.admin
+permissions:
+  envkoruma.kullan:
+    default: true
+  envkoruma.admin:
+    default: op

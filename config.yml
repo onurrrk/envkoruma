@@ -1,0 +1,11 @@
+sistem-durumu: true
+
+prefix: "§b[Koruma] §7"
+
+mesajlar:
+  koruma-acildi: "Envanter koruma açıldı."
+  koruma-kapatildi: "Envanter koruma kapatıldı."
+  reload: "Yapılandırma dosyası yeniden yüklendi."
+  item-atma-engellendi: "Envanter koruman açık, item atamazsın."
+  zaten-acik: "Zaten envanter koruman açık!"
+  zaten-kapali: "Zaten envanter koruman kapalı!"
