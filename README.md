@@ -1,33 +1,33 @@
-# 🛡️ EnvanterKoruma Plugin
+# 🛡️ InventoryProtection Plugin
 
-Minecraft oyuncularının yanlışlıkla item atmasını önleyen basit ama etkili bir koruma eklentisi.
+A simple yet effective protection plugin that prevents Minecraft players from accidentally dropping items.
 
-## ✨ Özellikler
+## ✨ Features
 
-- Oyuncular kendi envanter korumasını `/envkoruma aç` ve `/envkoruma kapat` komutlarıyla yönetebilir.
-- Koruma açıkken oyuncular yere item atamaz.
-- Oyuncuya uygun mesajlar gösterilir.
-- Adminler `/envadmin reload` komutuyla config dosyasını yeniden yükleyebilir.
-- Mesajlar ve sistem durumu `config.yml` üzerinden özelleştirilebilir.
-- Tüm mesajlar yapılandırılabilir ve prefix desteklidir.
+- Players can toggle their own inventory protection with `/envkoruma aç` and `/envkoruma kapat`.
+- When protection is enabled, players cannot drop items on the ground.
+- Players receive appropriate messages when actions are blocked.
+- Admins can reload the configuration with `/envadmin reload`.
+- All messages and system status are configurable via `config.yml`.
+- Customizable messages with prefix support.
 
-## 🧱 Desteklenen Sunucu Forkları
+## 🧱 Supported Server Forks
 
-| Sunucu Türü  | Destek         |
-|--------------|----------------|
+| Server Type  | Supported     |
+|--------------|---------------|
 | Paper        | ✅             |
 | Purpur       | ✅             |
 | Folia        | ✅             |
 | Spigot       | ✅             |
-| ⚠️ Bukkit    | Kısmi destek   |
+| ⚠️ Bukkit    | Partial support |
 
-## 🔧 Kurulum
+## 🔧 Installation
 
-1. `EnvKoruma.jar` dosyasını `plugins/` klasörüne atın.
-2. Sunucunuzu yeniden başlatın.
-3. `plugins/EnvKoruma/config.yml` dosyasını ihtiyacınıza göre düzenleyin.
+1. Place the `EnvKoruma.jar` file into the `plugins/` directory.
+2. Restart your server.
+3. Customize the `plugins/EnvKoruma/config.yml` file as needed.
 
-## ⚙️ Config Yapısı
+## ⚙️ Config Structure
 
 ```yaml
 sistem-durumu: true
